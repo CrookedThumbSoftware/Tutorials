@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial1", "Tutorial1/Tutorial1.csproj", "{E0A2F427-9EBB-41E8-BE12-7C7CD0CB409C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial1", "Tutorial1\Tutorial1.csproj", "{E0A2F427-9EBB-41E8-BE12-7C7CD0CB409C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch3Tutorial1", "Ch3Tutorial1\Ch3Tutorial1.csproj", "{33FADC5E-1B8F-4704-A1DB-4D9F393B31CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +15,10 @@ Global
 		{E0A2F427-9EBB-41E8-BE12-7C7CD0CB409C}.Debug|x86.Build.0 = Debug|x86
 		{E0A2F427-9EBB-41E8-BE12-7C7CD0CB409C}.Release|x86.ActiveCfg = Release|x86
 		{E0A2F427-9EBB-41E8-BE12-7C7CD0CB409C}.Release|x86.Build.0 = Release|x86
+		{33FADC5E-1B8F-4704-A1DB-4D9F393B31CF}.Debug|x86.ActiveCfg = Debug|x86
+		{33FADC5E-1B8F-4704-A1DB-4D9F393B31CF}.Debug|x86.Build.0 = Debug|x86
+		{33FADC5E-1B8F-4704-A1DB-4D9F393B31CF}.Release|x86.ActiveCfg = Release|x86
+		{33FADC5E-1B8F-4704-A1DB-4D9F393B31CF}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
