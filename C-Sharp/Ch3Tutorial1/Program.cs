@@ -24,8 +24,23 @@ namespace Ch3Tutorial1
          **/
         static void Main(string[] args)
         {
-            int i = 17;
+            int i = 5;
             string temp= "\"i\" is";
+
+            //Mess with it using the unary operators inline
+            i = i * --i;
+            // temp = i (5)
+            // i = i - 1 (4)
+            // i = temp * i (5 * 4 = 20)
+
+            //Reset and test again
+            i = 5;
+            i = i++ * --i;
+            // temp = i (5)
+            // i = i + 1 (6)
+            // i = i - 1 (5)
+            // i = temp * i (5 * 5 = 25)
+
             //Print to the console
             Console.WriteLine("{0} {1}.", temp, i);
             //Wait for the user to press a key
