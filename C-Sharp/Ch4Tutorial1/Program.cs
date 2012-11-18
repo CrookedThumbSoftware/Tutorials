@@ -35,7 +35,7 @@ namespace Ch4Tutorial1
                     //Argument is r^2 + i^2
                     double arg = (realPart * realPart) + (iPart * iPart);
 
-                    while ((arg < 4) && (iterationCount++ < 40))
+                    while ((arg < 4) && (iterationCount < 40))
                     {
                         //Calculate the next real temp
                         double rHold = (rTemp * rTemp) - (iTemp * iTemp) - realPart;
@@ -45,7 +45,7 @@ namespace Ch4Tutorial1
                         rTemp = rHold;
                         //Argument is r^2 + i^2
                         arg = (rTemp * rTemp) + (iTemp * iTemp);
-                        //++iterationCount;
+                        ++iterationCount;
                     }
                     //Write one character for the results of the calculations
                     switch (iterationCount % 4)
