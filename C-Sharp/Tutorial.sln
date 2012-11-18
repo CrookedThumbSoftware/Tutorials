@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch3Tutorial1", "Ch3Tutorial
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch3Tutorial2", "Ch3Tutorial2\Ch3Tutorial2.csproj", "{A3CE99A1-C587-4AC0-89D2-BD2FC0EF76DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch4Tutorial1", "Ch4Tutorial1\Ch4Tutorial1.csproj", "{32398AD4-7205-4EB9-A88A-0B93839F1541}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -25,6 +27,10 @@ Global
 		{A3CE99A1-C587-4AC0-89D2-BD2FC0EF76DE}.Debug|x86.Build.0 = Debug|x86
 		{A3CE99A1-C587-4AC0-89D2-BD2FC0EF76DE}.Release|x86.ActiveCfg = Release|x86
 		{A3CE99A1-C587-4AC0-89D2-BD2FC0EF76DE}.Release|x86.Build.0 = Release|x86
+		{32398AD4-7205-4EB9-A88A-0B93839F1541}.Debug|x86.ActiveCfg = Debug|x86
+		{32398AD4-7205-4EB9-A88A-0B93839F1541}.Debug|x86.Build.0 = Debug|x86
+		{32398AD4-7205-4EB9-A88A-0B93839F1541}.Release|x86.ActiveCfg = Release|x86
+		{32398AD4-7205-4EB9-A88A-0B93839F1541}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
