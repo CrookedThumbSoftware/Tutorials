@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch5Tutorial1", "Ch5Tutorial
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesAndRefs", "DelegatesAndRefs\DelegatesAndRefs.csproj", "{D06001D0-C8BF-4187-8A97-E9161A545914}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassVsStruct", "ClassVsStruct\ClassVsStruct.csproj", "{2B8C8839-026C-4030-A2D6-EE8A7DFDD5C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FieldMethodProperties", "FieldMethodProperties\FieldMethodProperties.csproj", "{46502E73-9957-4229-9759-8B83B842A91F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -43,6 +47,14 @@ Global
 		{D06001D0-C8BF-4187-8A97-E9161A545914}.Debug|x86.Build.0 = Debug|x86
 		{D06001D0-C8BF-4187-8A97-E9161A545914}.Release|x86.ActiveCfg = Release|x86
 		{D06001D0-C8BF-4187-8A97-E9161A545914}.Release|x86.Build.0 = Release|x86
+		{2B8C8839-026C-4030-A2D6-EE8A7DFDD5C0}.Debug|x86.ActiveCfg = Debug|x86
+		{2B8C8839-026C-4030-A2D6-EE8A7DFDD5C0}.Debug|x86.Build.0 = Debug|x86
+		{2B8C8839-026C-4030-A2D6-EE8A7DFDD5C0}.Release|x86.ActiveCfg = Release|x86
+		{2B8C8839-026C-4030-A2D6-EE8A7DFDD5C0}.Release|x86.Build.0 = Release|x86
+		{46502E73-9957-4229-9759-8B83B842A91F}.Debug|x86.ActiveCfg = Debug|x86
+		{46502E73-9957-4229-9759-8B83B842A91F}.Debug|x86.Build.0 = Debug|x86
+		{46502E73-9957-4229-9759-8B83B842A91F}.Release|x86.ActiveCfg = Release|x86
+		{46502E73-9957-4229-9759-8B83B842A91F}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
