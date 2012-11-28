@@ -41,7 +41,7 @@ namespace CardsLibrary
             }
             else
             {
-                return m_rank;
+                return m_rank.ToString();
             }
         }
     }
