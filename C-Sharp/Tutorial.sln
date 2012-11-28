@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardClientTutorial", "CardC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayOrCollection", "ArrayOrCollection\ArrayOrCollection.csproj", "{12CE232B-8E32-4937-A429-5021369451F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Primes", "Primes\Primes.csproj", "{C5577E2E-8C8F-475B-B8F4-B1E789891064}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -143,6 +145,16 @@ Global
 		{12CE232B-8E32-4937-A429-5021369451F5}.Release|Mixed Platforms.Build.0 = Release|x86
 		{12CE232B-8E32-4937-A429-5021369451F5}.Release|x86.ActiveCfg = Release|x86
 		{12CE232B-8E32-4937-A429-5021369451F5}.Release|x86.Build.0 = Release|x86
+		{C5577E2E-8C8F-475B-B8F4-B1E789891064}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{C5577E2E-8C8F-475B-B8F4-B1E789891064}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{C5577E2E-8C8F-475B-B8F4-B1E789891064}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{C5577E2E-8C8F-475B-B8F4-B1E789891064}.Debug|x86.ActiveCfg = Debug|x86
+		{C5577E2E-8C8F-475B-B8F4-B1E789891064}.Debug|x86.Build.0 = Debug|x86
+		{C5577E2E-8C8F-475B-B8F4-B1E789891064}.Release|Any CPU.ActiveCfg = Release|x86
+		{C5577E2E-8C8F-475B-B8F4-B1E789891064}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{C5577E2E-8C8F-475B-B8F4-B1E789891064}.Release|Mixed Platforms.Build.0 = Release|x86
+		{C5577E2E-8C8F-475B-B8F4-B1E789891064}.Release|x86.ActiveCfg = Release|x86
+		{C5577E2E-8C8F-475B-B8F4-B1E789891064}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
