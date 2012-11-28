@@ -22,35 +22,33 @@ namespace CardsLibrary
         /**
          * Ordered Array of cards
          */
-        private Card[] m_cards;
+        private Cards m_cards = new Cards();
         public const int SIZE_OF_DECK = 54; //52 cards + 2 jokers
 
         public Deck()
         {
-            m_cards = new Card[SIZE_OF_DECK];
-            int index = 0;
             //Add the cards in order in suits
             for (Suit suit = Suit.CLUB; suit < Suit.JOKER; suit++)
             {
                 for (Rank rank = Rank.ACE; rank < Rank.JOKER; rank++)
                 {
-                    m_cards[index++] = new Card(suit, rank);
+                    m_cards.Add(new Card(suit, rank));
                 }
             }
             //Add the Jokers
-            m_cards[index++] = new Card(Suit.JOKER, Rank.JOKER);
-            m_cards[index++] = new Card(Suit.JOKER, Rank.JOKER);
+            m_cards.Add(new Card(Suit.JOKER, Rank.JOKER));
+            m_cards.Add(new Card(Suit.JOKER, Rank.JOKER));
         }
 
         public Card GetCard(int index)
         {
-            if ((index >= 0) && (index < SIZE_OF_DECK))
+            if ((index >= 0) && (index < m_cards.Count))
             {
                 return m_cards[index];
             }
             else
             {
-                string message = "Value must be in the range [0,"+(SIZE_OF_DECK - 1)+"]";
+                string message = "Value must be in the range [0,"+ m_cards.Count+")";
                 throw (new System.ArgumentOutOfRangeException("index", index, message));
                 //No return because there is a thrown exception
             }
@@ -59,12 +57,12 @@ namespace CardsLibrary
         public void Shuffle()
         {
             //The temporary deck
-            Card[] shuffledDeck = new Card[SIZE_OF_DECK];
+            Cards shuffledDeck = new Cards();
             //Whether the card at index has already been added to the temporary deck
-            bool[] assigned = new bool[SIZE_OF_DECK];
+            bool[] assigned = new bool[m_cards.Count];
 
             Random r = new Random();
-            for (int index = 0; index < SIZE_OF_DECK; index++)
+            for (int index = 0; index < m_cards.Count; index++)
             {
                 int picked = -1;
                 bool available = false;
@@ -77,11 +75,11 @@ namespace CardsLibrary
                     available = !assigned[picked];
                 }
                 assigned[picked] = true;
-                shuffledDeck[index] = m_cards[picked];
+                shuffledDeck.Add(m_cards[picked]);
             }
 
             //replace the ordered deck with the shuffled deck
-            shuffledDeck.CopyTo(m_cards, 0);
+            shuffledDeck.CopyTo(m_cards);
         }
     }
 }
