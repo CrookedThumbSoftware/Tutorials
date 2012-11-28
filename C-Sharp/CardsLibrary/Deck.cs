@@ -23,7 +23,7 @@ namespace CardsLibrary
          * Ordered Array of cards
          */
         private Card[] m_cards;
-        const int SIZE_OF_DECK = 52;
+        public const int SIZE_OF_DECK = 54; //52 cards + 2 jokers
 
         public Deck()
         {

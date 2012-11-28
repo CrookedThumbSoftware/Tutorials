@@ -37,11 +37,11 @@ namespace CardsLibrary
         {
             if (Rank.JOKER != m_rank)
             {
-                return "The " + m_rank + " of " + m_suit + "s";
+                return m_rank + " of " + m_suit + "s";
             }
             else
             {
-                return "The " + m_rank;
+                return m_rank;
             }
         }
     }
