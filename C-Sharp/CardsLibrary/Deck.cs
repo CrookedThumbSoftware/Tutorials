@@ -40,6 +40,23 @@ namespace CardsLibrary
             m_cards.Add(new Card(Suit.JOKER, Rank.JOKER));
         }
 
+        public Deck(bool isAceHigh) : this()
+        {
+            Card.s_isAceHigh = isAceHigh;
+        }
+
+        public Deck(bool useTrumps, Suit trump) : this()
+        {
+            Card.s_useTrumps = useTrumps;
+            Card.s_trumpSuit = trump;
+        }
+
+        public Deck(bool isAceHigh, bool useTrumps, Suit trump) : this()
+        {
+            Card.s_isAceHigh = isAceHigh;
+            Card.s_useTrumps = useTrumps;
+            Card.s_trumpSuit = trump;
+        }
         public Card GetCard(int index)
         {
             if ((index >= 0) && (index < m_cards.Count))
